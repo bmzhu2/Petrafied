@@ -1,10 +1,12 @@
-// webpack.config.js
+
 var path = require('path');
 
 module.exports = {
+  context: __dirname,
   entry: './frontend/petrafied.jsx',
   output: {
-    filename: './bundle.js',
+    path: path.resolve(__dirname),
+    filename: 'bundle.js',
   },
   module: {
     rules: [
