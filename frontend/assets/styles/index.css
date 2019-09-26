@@ -1,0 +1,25 @@
+body, main, html {
+  margin: 0 auto;
+  height: 100%;
+  background-color: navajowhite;
+}
+
+.main {
+  text-align: center;
+}
+
+.petra {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+  .petra-portrait {
+    border-radius: 50%;
+  }
+
+.error-404 {
+  font-size: 30pt;
+  padding-top: 10%;
+  text-align: center;
+}
