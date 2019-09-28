@@ -1,21 +1,33 @@
 body, main, html {
   margin: 0 auto;
   height: 100%;
-  background-color: navajowhite;
+  background-color: sienna;
+}
+
+#root {
+  height: inherit;
 }
 
 .main {
+  margin: 0 auto;
   text-align: center;
+  width: 80vw;
+  height: inherit;
+  background-color: navajowhite;
 }
 
 .petra {
+  margin: 0 auto;
+  width: 80vw;
   padding-top: 5%;
   display: flex;
   justify-content: center;
+  background-color: navajowhite;
 }
 
   .petra-portrait {
     border-radius: 50%;
+    max-width: 20%;
   }
 
 .error-404 {

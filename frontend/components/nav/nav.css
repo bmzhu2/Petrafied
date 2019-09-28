@@ -1,0 +1,19 @@
+.navbar {
+  height: 5vw;
+  background-color: #8c4d69;
+  display: flex;
+  justify-content: center;
+}
+
+  .nav-left, .nav-right {
+    width: 30vw;
+    border: 1px solid black;
+  }
+
+  .nav-title {
+    width: 20vw;
+    text-align: center;
+    line-height: 5vw;
+    font-size: 3vw;
+    color: gold;
+  }

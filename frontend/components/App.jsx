@@ -1,13 +1,14 @@
 import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
-import Petra from './petra.jsx';
+import Nav from './nav/nav'
+import Petra from './petra';
 import Home from './home/home';
 import ErrorPage from './error_page';
 
 const App = () => (
     <>
       <header>
-        
+        <Nav />
       </header>
       <Petra />
       <Switch>
